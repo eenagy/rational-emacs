@@ -65,10 +65,10 @@
 (push '(tool-bar-lines . 0) default-frame-alist)
 (push '(menu-bar-lines . 0) default-frame-alist)
 (push '(vertical-scroll-bars) default-frame-alist)
-(push '(mouse-color . "white") default-frame-alist)
+;(push '(mouse-color . "white") default-frame-alist)
 
 ;; Loads a nice blue theme, avoids the white screen flash on startup.
-(load-theme 'deeper-blue t)
+;(load-theme 'deeper-blue t)
 
 ;; Make the initial buffer load faster by setting its mode to fundamental-mode
 (setq initial-major-mode 'fundamental-mode)

@@ -1,6 +1,16 @@
+*.elc
+auto-save-list/
+backup/
 eln-cache/
 straight/
 transient/
 eshell/
 rational-emacs/
 projects
+elpa/
+bookmarks
+bookmarks~
+config.el~
+network-security.data
+projectile-bookmarks.eld
+session.*
