@@ -8,3 +8,9 @@ projects
 elpa/
 bookmarks
 network-security.data
+auto-save-list/
+backup/
+bookmarks~
+config.el~
+projectile-bookmarks.eld
+session.*
