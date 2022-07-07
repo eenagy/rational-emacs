@@ -161,9 +161,9 @@ Used as hook for modes which should not display line numebrs."
   "Pulse the current line."
   (pulse-momentary-highlight-one-line (point)))
 
-(dolist (command '(scroll-up-command scroll-down-command
-                                     recenter-top-bottom other-window))
-  (advice-add command :after #'pulse-line))
+;;(dolist (command '(scroll-up-command scroll-down-command
+;;				                     recenter-top-bottom other-window))
+;;  (advice-add command :after #'pulse-line))
 
 (provide 'rational-ui)
 ;;; rational-ui.el ends here
